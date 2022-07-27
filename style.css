@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color:aliceblue;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+.link-bio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    margin: 40px auto;
+    gap: 20px;
+
+
+}
+
+.link-bio img {
+    width: 150px;
+    height: 150px;
+    border: solid 1px #fff;
+    border-radius: 50%;
+
+}
+
+.link-bio h1 {
+    font-size: 40px;
+}
+
+.link-bio a {
+    background-color: red;
+    color: aliceblue;
+    padding: 15px;
+    width: 100%;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    border: solid 2px red;
+    border-radius: 10px;
+
+}
+
+.link-bio a:hover {
+    background-color: aliceblue;
+    color: red;
+}
+
